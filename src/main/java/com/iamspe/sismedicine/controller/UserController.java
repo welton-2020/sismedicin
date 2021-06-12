@@ -1,13 +1,11 @@
 package com.iamspe.sismedicine.controller;
 
 import com.iamspe.sismedicine.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-import com.iamspe.sismedicine.dto.response.MessageRersponseDTO;
+import com.iamspe.sismedicine.dto.MessageRersponseDTO;
 import com.iamspe.sismedicine.entity.User;
-import com.iamspe.sismedicine.repository.UserRepository;
 
 import lombok.Builder;
 

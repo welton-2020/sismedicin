@@ -1,4 +1,4 @@
-package com.iamspe.sismedicine.dto.response;
+package com.iamspe.sismedicine.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
