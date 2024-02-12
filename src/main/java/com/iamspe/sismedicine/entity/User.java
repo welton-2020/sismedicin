@@ -33,7 +33,7 @@ public class User {
 	@Column(nullable = false, unique = true)
 	private String matricula;
 	
-	@OneToMany(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})
+	@OneToMany( cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})
 	private List<Phone> phones;
 
 	public Long getId() {
